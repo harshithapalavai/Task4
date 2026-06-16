@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Recognition System</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: white;
+            width: 500px;
+            padding: 30px;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        h3 {
+            color: #666;
+        }
+
+        input[type="file"] {
+            margin: 20px 0;
+        }
+
+        button {
+            background: #007BFF;
+            color: white;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #0056b3;
+        }
+
+        .output {
+            margin-top: 25px;
+            background: #eef2ff;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            color: green;
+        }
+
+        .info {
+            margin-top: 20px;
+            text-align: left;
+            color: #444;
+        }
+
+        ul {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Hand Gesture Recognition</h1>
+    <h3>Human-Computer Interaction System</h3>
+
+    <input type="file" accept="image/*,video/*">
+
+    <br>
+
+    <button>Recognize Gesture</button>
+
+    <div class="output">
+        Detected Gesture: 👍 Thumbs Up
+    </div>
+
+    <div class="info">
+        <h3>Supported Gestures</h3>
+        <ul>
+            <li>👍 Thumbs Up</li>
+            <li>👎 Thumbs Down</li>
+            <li>✌ Victory Sign</li>
+            <li>✋ Open Palm</li>
+            <li>👊 Fist</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
